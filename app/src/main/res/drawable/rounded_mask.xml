@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40FFFFFF">
+    
+    <!-- Background saat ditekan (optional) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#20FFFFFF" />  <!-- Sedikit putih saat ditekan -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    
+    <!-- Background normal -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    
+</ripple>

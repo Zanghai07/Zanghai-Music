@@ -1,0 +1,5 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#54FFFFFF">
+    <!-- Background transparan -->
+    <item android:drawable="@drawable/card_lyrics_bg" />
+</ripple>
